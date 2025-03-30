@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-Shirt Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">T-Shirt Store</div>
+    <ul>
+      <li><a href="#products">Produk</a></li>
+      <li><a href="#about">Tentang Kami</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Selamat Datang di T-Shirt Store</h1>
+    <p>Temukan Koleksi T-Shirt Terbaik dan Terbaru di Sini!</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Koleksi T-Shirt</h2>
+    <div class="product-items">
+      <!-- Product 1 -->
+      <div class="product-item">
+        <img src="https://via.placeholder.com/250" alt="T-Shirt 1">
+        <h3>T-Shirt Motif 1</h3>
+        <p>Harga: Rp 150,000</p>
+        <button class="add-to-cart" data-item="T-Shirt Motif 1" data-price="150000">Tambahkan ke Keranjang</button>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-item">
+        <img src="https://via.placeholder.com/250" alt="T-Shirt 2">
+        <h3>T-Shirt Motif 2</h3>
+        <p>Harga: Rp 175,000</p>
+        <button class="add-to-cart" data-item="T-Shirt Motif 2" data-price="175000">Tambahkan ke Keranjang</button>
+      </div>
+      <!-- Product 3 -->
+      <div class="product-item">
+        <img src="https://via.placeholder.com/250" alt="T-Shirt 3">
+        <h3>T-Shirt Motif 3</h3>
+        <p>Harga: Rp 200,000</p>
+        <button class="add-to-cart" data-item="T-Shirt Motif 3" data-price="200000">Tambahkan ke Keranjang</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah toko online yang menyediakan berbagai macam koleksi T-Shirt dengan desain terbaru dan kualitas terbaik. Setiap T-Shirt diproduksi dengan bahan yang nyaman dan harga yang terjangkau.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Kontak Kami</h2>
+    <p>Email: info@tshirtstore.com</p>
+    <p>Telepon: (021) 123456789</p>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="cart">
+    <h2>Keranjang Belanja</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: Rp <span id="total-price">0</span></p>
+    <button id="checkout">Checkout</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
