@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h2 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* Products Section */
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.product-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-item button {
+  background-color: #2575fc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #6a11cb;
+}
+
+/* About Section */
+.about {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+/* Cart Section */
+.cart {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart button {
+  background-color: #2575fc;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #6a11cb;
+}
